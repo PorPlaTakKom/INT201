@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Readme](README.md)
+* [Basic JavaScript](README.md)

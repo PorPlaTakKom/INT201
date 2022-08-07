@@ -24,6 +24,35 @@ JavaScript is high-level programming language often used to implement dynamic fe
 * Instagram
 * Netflix
 * Uber
-* etc
+* etc.
 
 ## Variables
+
+Variables are used to store data values in computer memory. They can be referred by using their names.
+
+**Variables for JavaScript**
+
+* <mark style="color:red;">var (not recommended to use)</mark>
+* <mark style="color:blue;">let</mark>
+* <mark style="color:blue;">const</mark>
+
+**How to use**&#x20;
+
+```javascript
+// myName and MyAge is name for variable 
+let myName = 'Alice'
+// const can't edit value in variable
+const myAge = 20
+
+console.log(myName)
+console.log(myAge)
+
+myName = 'Bolb'
+myAge = 18
+
+//Result
+Alice
+20
+Blob
+Error
+```
